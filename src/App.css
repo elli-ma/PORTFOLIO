@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
+div {
+    transition: background-color 1s ease;
+    font-family: "Open Sans", sans-serif;
+
+   }
+
+button {
+  border: none;
+  background-color: RGB(249, 201, 16, 0);
+}
+
+a.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(176, 176, 176);
+  padding-bottom: 1em;
+}
+
+a.nav-link:hover {
+  color: rgba(176, 176, 176, 0.8);
+}
+
+
