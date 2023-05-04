@@ -6,7 +6,7 @@ function End() {
         <div>
            <hr />
             <footer>
-                <a className="nav-link fw-semibold p-5 text-center" href="mailto: elli9225@gmail.com" >elli9225@gmail.com</a>
+                <a className="nav-link fw-light p-5 text-center" href="mailto: elli9225@gmail.com" >elli9225@gmail.com</a>
             </footer>
 
         </div>

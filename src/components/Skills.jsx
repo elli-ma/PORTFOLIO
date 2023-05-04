@@ -5,14 +5,15 @@ function Skills() {
 
         <div>
             <section className="row " >
-                <h2 className="p-4">Skills</h2>
-
-                <button type="button" className="col btn btn-outline-secondary p-3 m-3">HTML</button>
-                <button type="button" className="col btn btn-outline-secondary p-3 m-3">CSS</button>
-                <button type="button" className="col btn btn-outline-secondary p-3 m-3">JS</button>
-                <button type="button" className="col btn btn-outline-secondary p-3 m-3">React</button>
-
-
+                <h2 >Skills</h2>
+                <div className="d-flex gap-2">
+                    <i className="fa-brands fa-html5 fs-1"></i>
+                    <i className="fa-brands fa-css3-alt fs-1"></i>
+                    <i className="fa-brands fa-js fs-1"></i>
+                    <i className="fa-brands fa-react fs-1"></i>
+                    <i className="fa-brands fa-github fs-1"></i>
+                    <i className="fa-brands fa-bootstrap fs-1"></i>
+                </div>
 
             </section>
 
