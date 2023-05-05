@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
 
 div {
-    transition: background-color 1s ease;
-    font-family: "Open Sans", sans-serif;
-
-   }
+  transition: background-color 1s ease;
+  font-family: "Open Sans", sans-serif;
+}
 
 button {
   border: none;
@@ -22,4 +21,32 @@ a.nav-link:hover {
   color: rgba(176, 176, 176, 0.8);
 }
 
+a.link-secondary:hover {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  color: black;
+}
+.fa-brands {
+  font-size: 300%;
+  color: rgb(176, 176, 176);
+}
+.fa-brands:hover {
+  color: black;
+}
+hr{
+  opacity: 0.1; 
+}
+@media (max-width: 1450px) {
+.education {
+  display: flex;
+  flex-direction: column;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+}
 

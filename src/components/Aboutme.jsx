@@ -2,10 +2,9 @@ import React from 'react';
 
 function Aboutme() {
     return (
-
         <div>
-            <section id = "about-me" className="about-me-pad2 py-3">
-                <h2 className="py-4 ">About Me</h2>
+            <section id="about-me" className="about-me-pad2 my-4 py-5 ">
+                <h2 className="my-4 fw-bolder">About Me</h2>
                 <div className="">
                     <p>
                         Добро пожаловать на мой сайт портфолио! Я начинающий разработчик, специализирующийся на JavaScript, React и TypeScript.
@@ -20,10 +19,9 @@ function Aboutme() {
                         что посетили мой сайт портфолио. Я надеюсь на возможность сотрудничества с вами в будущем!
                     </p>
                 </div>
-
             </section >
-        </div >
-
+           
+        </div>
     );
 }
 

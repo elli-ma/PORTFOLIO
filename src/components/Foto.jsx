@@ -5,20 +5,15 @@ function Foto() {
     return (
 
         <div>
-            <hr />
-
             <div class="d-flex justify-content-between">
-                <div className="py-3">
-                    <h1>Elvira <br/>Akhmetzyanova</h1>
+                <div className="my-3">
+                    <h1 className="fw-bolder">Elvira <br />Akhmetzyanova</h1>
                 </div>
-
-            
                 <div className="py-3">
-                    <h4>Junior Frontend <br/> Saint Petersburg</h4>
+                    <h4>Junior Frontend <br /> Saint Petersburg</h4>
                 </div>
             </div>
             <img className="img-fluid " src={ImgMe} alt=""></img>
-
         </div>
 
     );
