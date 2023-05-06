@@ -5,7 +5,7 @@ function Aboutme() {
         <div>
             <section id="about-me" className="about-me-pad2 my-4 py-5 ">
                 <h2 className="my-4 fw-bolder">About Me</h2>
-                <div className="">
+                <div className="about-me">
                     <p>
                         Добро пожаловать на мой сайт портфолио! Я начинающий разработчик, специализирующийся на JavaScript, React и TypeScript.
                         {/* Я посвятила много времени и усилий, чтобы развивать свои знания и навыки в различных технологиях веб-разработки.
@@ -20,9 +20,8 @@ function Aboutme() {
                     </p>
                 </div>
             </section >
-           
         </div>
-    );
+    )
 }
 
 export default Aboutme;

@@ -24,29 +24,81 @@ a.nav-link:hover {
 a.link-secondary:hover {
   width: 100px;
   height: 100px;
-  background-color: blueviolet;
   color: black;
+}
+.card-header {
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.card-img-top {
+  transition: transform 0.25s;
+}
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.card-text {
+  color: rgb(103, 101, 101);
 }
 .fa-brands {
   font-size: 300%;
   color: rgb(176, 176, 176);
 }
 .fa-brands:hover {
-  color: black;
+  color: rgb(103, 101, 101);
 }
-hr{
-  opacity: 0.1; 
+hr {
+  opacity: 0.2;
+}
+
+.skills-small {
+  display: none;
+}
+.skills-big {
+  display: flex;
+}
+.img-small {
+  display: none;
 }
 @media (max-width: 1450px) {
-.education {
-  display: flex;
-  flex-direction: column;
+  .education {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-big {
+    display: none;
+  }
+  .skills-small {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.skills {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
+@media (max-width: 840px) {
+  .fa-brands {
+    font-size: 200%;
+  }
+  .about-me {
+    font-size: 80%;
+  }
+  a.nav-link {
+    font-size: 90%;
+    padding-bottom: 0em;
+  }
+  .nav-item {
+    font-size: 80%;
+  }
+  .nav-item img {
+    width: 90%;
+  }
+  .photo {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-big {
+    display: none;
+  }
+  .img-small {
+    display: block;
+  }
 }
-
-}
-

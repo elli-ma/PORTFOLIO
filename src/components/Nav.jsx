@@ -1,15 +1,10 @@
 
 import Sun from '../images/sun.svg';
-import Moon from '../images/moon.svg'
-
-
+import Moon from '../images/moon.svg';
 
 function Nav(props) {
-
   const moon = props.view == 'white' ? Moon : Sun;
-
   return (
-
     <div>
       <nav className="p-y-1">
         <ul className="nav justify-content-end">
@@ -27,11 +22,8 @@ function Nav(props) {
             <button className="nav-link" onClick={props.handleView} type="button"> <img src={moon} /> </button>
           </li>
         </ul>
-
       </nav>
-
     </div>
-
   );
 }
 

@@ -1,10 +1,9 @@
 import React from "react"
-import TicTac from '../../images/TicTac.jpg'
-import Comment from '../../images/Comment.jpg'
-import Beauty from '../../images/Beauty.jpg'
-import Conquest from '../../images/Conquest.jpg'
-import Sultan from '../../images/Sultan.jpg'
-import Item from './Item'
+import TicTac from '../images/TicTac.jpg'
+import Comment from '../images/Comment.jpg'
+import Beauty from '../images/Beauty.jpg'
+import Conquest from '../images/Conquest.jpg'
+import Sultan from '../images/Sultan.jpg'
 
 function Projects() {
     return (
@@ -15,10 +14,9 @@ function Projects() {
                 <div className="row row-cols-1 row-cols-md-3 g-5">
                     <div className="col">
                         <div className="card h-100">
-                            <a href="https://elli-ma.github.io/krestiki/">
+                            <a className="card-header" href="https://elli-ma.github.io/krestiki/">
                                 <img src={TicTac} className="card-img-top" alt="..." />
                             </a>
-
                             <div className="card-body">
                                 <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://github.com/elli-ma/krestiki">
                                     <h4 className="card-title text-center">TicTac</h4>
@@ -31,9 +29,10 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col">
                         <div className="card h-100">
-                            <a href="https://elli-ma.github.io/comments/">
+                            <a className="card-header" href="https://elli-ma.github.io/comments/">
                                 <img src={Comment} className="card-img-top" alt="..." />
                             </a>
                             <div className="card-body">
@@ -47,9 +46,10 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col">
                         <div className="card h-100">
-                            <a href="https://elli-ma.github.io/Conquest/">
+                            <a className="card-header" href="https://elli-ma.github.io/Conquest/">
                                 <img src={Conquest} className="card-img-top" alt="..." />
                             </a>
 
@@ -64,9 +64,10 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col">
                         <div className="card h-100">
-                            <a href="https://elli-ma.github.io/Beuty/">
+                            <a className="card-header" href="https://elli-ma.github.io/Beuty/">
                                 <img src={Beauty} className="card-img-top" alt="..." />
                             </a>
 
@@ -81,17 +82,16 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col">
                         <div className="card h-100">
-                            <a href="https://elli-ma.github.io/sultan/">
+                            <a className="card-header" href="https://elli-ma.github.io/sultan/">
                                 <img src={Sultan} className="card-img-top" alt="..." />
                             </a>
-
                             <div className="card-body">
                                 <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://github.com/elli-ma/sultan">
                                     <h4 className="card-title text-center">Sultan</h4>
                                 </a>
-
                                 <p className="card-text fs-6 lh-base text-center">Этот проект является магазином, написанным на React с использованием TypeScript и Vite.
                                     Мы использовали Redux для управления состоянием приложения. Vite был выбран мной как быстрый и эффективный
                                     инструмент для сборки и разработки проекта. Я также создала адаптивный дизайн, который корректно отображается на различных устройствах.
@@ -100,12 +100,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
     )
 }
-
-
 
 export default Projects;
