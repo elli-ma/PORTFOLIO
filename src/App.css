@@ -51,6 +51,10 @@ a.link-secondary:hover {
 hr {
   opacity: 0.2;
 }
+nav ul {
+  display: flex;
+  justify-content: end;
+}
 
 .skills-small {
   display: none;
@@ -86,7 +90,8 @@ hr {
     padding-bottom: 0em;
   }
   .nav-item {
-    font-size: 80%;
+    font-size: 100%;
+    
   }
   .nav-item img {
     width: 90%;
@@ -100,5 +105,9 @@ hr {
   }
   .img-small {
     display: block;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
   }
 }

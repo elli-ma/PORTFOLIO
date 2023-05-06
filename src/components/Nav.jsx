@@ -7,7 +7,7 @@ function Nav(props) {
   return (
     <div>
       <nav className="p-y-1">
-        <ul className="nav justify-content-end">
+        <ul className="nav ">
           <li className="nav-item">
             <a className="nav-link text-grey fw-light" aria-current="page" href="#about-me">About Me</a>
           </li>
