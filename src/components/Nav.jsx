@@ -13,7 +13,7 @@ function Nav(props) {
           </li>
           <li className="nav-item">
             <a className="nav-link fw-light"
-              href="https://docs.google.com/document/d/1yQjJngPyV7PFbf-P0YFOzauSwS1-K0ueMnu6avQZKtg/edit?usp=sharing">Resume</a>
+              href="https://drive.google.com/file/d/14CmgPaCEVIK7V63VZyksIYh5oXl48N7W/view?usp=sharing">Resume</a>
           </li>
           <li className="nav-item">
             <a className="nav-link fw-light" href="https://github.com/elli-ma">Github</a>
