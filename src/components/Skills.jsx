@@ -1,38 +1,28 @@
-import React from 'react';
+import wave from '../images/wave.svg'
+import wave1 from '../images/wave1.svg'
+
 
 function Skills() {
     return (
-        <div>
-            <section className="my-4 py-5">
-
-                <div className="skills-big justify-content-between gap-2 align-items-center">
-                    <h2 className="my-4 pe-5 fw-bolder" >Skills</h2>
-                    <div className="d-flex justify-content-between ps-5 ms-5 w-100 ">
-                        <i className="fa-brands fa-html5 ps-5 ms-5 "></i>
-                        <i className="fa-brands fa-css3-alt "></i>
-                        <i className="fa-brands fa-js "></i>
-                        <i className="fa-brands fa-react "></i>
-                        <i className="fa-brands fa-github "></i>
-                        <i className="fa-brands fa-bootstrap "></i>
-                        <i className="fa-brands fa-sass "></i>
-                    </div>
+        <section id="skills" className="block">
+            <div className="block_col3">
+                <h2 className="block__title" >Skills</h2>
+                {/* <p className="block__text">Junior Frontend Saint Petersburg</p> */}
+                <div className='wave'>
+                    {/* <img className='wave__img' src={wave} alt="" /> */}
                 </div>
-
-                <div className="skills-small ">
-                    <h2 className="my-4 fw-bolder" >Skills</h2>
-                    <div className="justify-content-between d-flex">
-                        <i className="fa-brands fa-html5"></i>
-                        <i className="fa-brands fa-css3-alt "></i>
-                        <i className="fa-brands fa-js "></i>
-                        <i className="fa-brands fa-react "></i>
-                        <i className="fa-brands fa-github "></i>
-                        <i className="fa-brands fa-bootstrap "></i>
-                        <i className="fa-brands fa-sass "></i>
-                    </div>
+            </div>
+            <div className="col4">
+                <div className="col4__item">
+                    <h3 className="col4__title">Frontend Development</h3>
+                    <p className="col4__text">HTML, CSS, SASS, Bootstrap, React, Javascript, Node.js, Typescript.</p>
                 </div>
-
-            </section>
-        </div>
+                <div className="col4__item">
+                    <h3 className="col4__title">Design</h3>
+                    <p className="col4__text">Photoshop, Illustrator, CorelDRAW.</p>
+                </div>
+            </div>
+        </section>
     );
 }
 
