@@ -280,3 +280,74 @@ h1 {
     background-color: $color2;
     color: white;
 }
+
+@media (max-width: 2179px){
+.block {
+    padding: 40px 15%; ;
+}
+.block__row {
+    padding: 40px 15%;
+}
+.nav{
+    padding: 25px 15%; 
+}
+}
+
+@media (max-width: 1595px){
+    .block {
+        padding: 40px 5%; ;
+    }
+    .block__row {
+        padding: 40px 5%;
+    }
+    .nav{
+        padding: 25px 5%; 
+    } 
+}
+@media (max-width: 1190px){
+    .block{
+        flex-direction: column;
+    }
+    .col4{
+        flex-direction: column;
+    }
+    .nav__lists{
+        display: none;
+    }
+    .form__one{
+        flex-direction: column;
+    }
+    .item{
+        width: 48%;
+    }
+    .block_col {
+   
+        width: 100%;
+    }
+    .block_col_img {
+
+        width: 100%;
+    }
+    .block_col {
+   
+        width: 100%;
+    }
+    .block_col3 {
+        width: 100%;
+    }
+    .col4{
+        width: 100%;
+    }
+    .col4__item{
+        width: 100%;
+    }
+    .area {
+        width: 100%;
+    }
+    .form__mail{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+}

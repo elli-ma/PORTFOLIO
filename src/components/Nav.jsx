@@ -30,7 +30,7 @@ function Nav(props) {
           <a className="nav__link" href="https://github.com/elli-ma">Github</a>
         </li> */}
         <li className="nav__button">
-          <button className="nav__link nav__button" onClick={props.handleView} type="button"> <img src={moon} /> </button>
+          <button className=" nav__button" onClick={props.handleView} type="button"> <img src={moon} /> </button>
         </li>
       </ul>
     </nav>
