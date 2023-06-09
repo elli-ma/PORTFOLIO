@@ -3,7 +3,7 @@ import ImgMe from '../images/Photo1.jpg'
 function Aboutme() {
     return (
         <div id="about-me" className="one">
-            <section className="block">
+            <section className="block rev">
                 <div className="block_col">
                     <div>
                         <h1>I am ELLI</h1>

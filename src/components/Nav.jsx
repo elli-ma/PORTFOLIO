@@ -7,21 +7,24 @@ function Nav(props) {
   return (
     <nav className="nav">
       <ul className="nav__lists">
-        <li className="nav__item">
-          <a className="nav__link" aria-current="page" href="#about-me">Hello</a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" aria-current="page" href="#skills">Skills</a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" aria-current="page" href="#education">Education</a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" aria-current="page" href="#portfolio">Portfolio</a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" aria-current="page" href="#contact">Contact me</a>
-        </li>
+        <ul className='nav__one'>
+          <li className="nav__item">
+            <a className="nav__link" aria-current="page" href="#about-me">Hello</a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link" aria-current="page" href="#education">Education</a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link" aria-current="page" href="#portfolio">Portfolio</a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link" aria-current="page" href="#contact">Contact me</a>
+          </li>
+        </ul>
+
         {/* <li className="nav__item">
           <a className="nav__link"
             href="https://drive.google.com/file/d/14CmgPaCEVIK7V63VZyksIYh5oXl48N7W/view?usp=sharing">Resume</a>
@@ -29,9 +32,12 @@ function Nav(props) {
         {/* <li className="nav__item">
           <a className="nav__link" href="https://github.com/elli-ma">Github</a>
         </li> */}
-        <li className="nav__button">
+        <ul className='nav__two'>
+            <li className="nav__button">
           <button className=" nav__button" onClick={props.handleView} type="button"> <img src={moon} /> </button>
         </li>
+        </ul>
+      
       </ul>
     </nav>
 
