@@ -14,6 +14,10 @@ a {
         text-decoration: underline;
     }
 }
+.wrapper {
+    background-color: #fff6e5;
+    color: rgb(54, 30, 45);
+}
 body {
     font-size: 16px;
     line-height: 1.56;
@@ -36,13 +40,20 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 3.5%;
+    gap: 1%;
 }
 .nav__one {
+    width: 382px;
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 3.5%;
+}
+.nav__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15%;
 }
 .nav__button {
     background-color: #11ffee00;
@@ -64,6 +75,7 @@ body {
 .one {
     padding-top: 70px;
 }
+
 
 .block_col {
     display: flex;
@@ -97,10 +109,6 @@ h1 {
         color: $color1;
     }
 }
-
-.block__text {
-}
-
 .lists {
     display: flex;
     align-items: center;
@@ -139,6 +147,8 @@ h1 {
     background-color: $color2;
     color: $color3;
     &:hover {
+        color: $color1;
+        text-decoration: none;
         opacity: 0.8;
     }
 }
@@ -211,12 +221,12 @@ h1 {
 .wave {
     width: 50%;
 }
-
 .wave__img {
     width: 100%;
 }
 .icon__link {
     padding-right: 8%;
+    color: #b56412;
 }
 
 .form {
@@ -280,9 +290,10 @@ h1 {
 .footer {
     font-size: 14px;
     place-content: center;
-    padding: 0.5% 27%;
+    padding: 1% 27%;
     background-color: $color2;
-    color: white;
+    color: $color3;
+    text-align: center;
 }
 
 @media (max-width: 2179px) {

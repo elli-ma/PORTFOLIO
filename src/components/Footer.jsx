@@ -1,8 +1,9 @@
-
+import { useTranslation } from 'react-i18next';
 function Footer() {
+    const { t } = useTranslation();
     return (
-        <footer className="block footer">
-            <p class="block__text">  Спасибо, что посетили мой сайт. Я надеюсь на возможность сотрудничества с вами в будущем!</p>
+        <footer className="footer">
+            <p> {t("footer.text")}<i class="fa-regular fa-heart"></i></p>
         </footer>
     )
 }

@@ -1,11 +1,13 @@
 import React from "react"
 import wave from '../images/wave.svg'
 import wave1 from '../images/wave1.svg' 
+import { useTranslation } from 'react-i18next';
 function Education() {
+    const { t } = useTranslation();
     return (
         <div id ="education" className="block">
             <div className="block_col3">
-                <h2 className="block__title">Education</h2>
+                <h2 className="block__title">{t("education.title")}</h2>
                 {/* <p className="block__text">Junior Frontend Saint Petersburg</p> */}
                 <div className='wave'>
                      {/* <img className='wave__img'src={wave} alt="" />
@@ -15,10 +17,9 @@ function Education() {
 
             <div className="col4">
                 <div>
-                    <h4 className="col4__title" >Chelyabinsk State Pedagogical University (ЮУрГГПУ) </h4>
+                    <h4 className="col4__title" >{t("education.name")}</h4>
                     <span>2009-2014</span>
-                    <p className="col4__text">Профессиональное обучение
-                        (Информатика, вычислительная техника и компьютерные технологии).</p>
+                    <p className="col4__text">{t("education.text")}</p>
                 </div>
 
             </div>
