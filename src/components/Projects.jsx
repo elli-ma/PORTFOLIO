@@ -41,7 +41,6 @@ function Projects() {
                     <p className="item__text">JavaScript,Bootstrap.</p>
                 </div>
 
-
                 <div className="item">
                     <div className="img__box">
                         <a href="https://elli-ma.github.io/krestiki/" target="_blank"><img className="item__img" src={TicTac} alt="" /></a>

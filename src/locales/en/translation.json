@@ -8,7 +8,7 @@
   },
   "aboutme": {
     "title": "I am ELLI",
-    "text": "sjksfdsadfjas.",
+    "text": "?I am a web developer from St. Petersburg. I am currently looking for a job. Ready to work in a team, learn from colleagues and take on new challenges with enthusiasm.",
     "list": {
       "item1":"Phone:",
       "item2":"Email:",
@@ -25,7 +25,7 @@
   "education": {
     "title": "Education",
     "name": "Chelyabinsk State Pedagogical University",
-    "text": "it"
+    "text": "Vocational training (Computer science, computer engineering and computer technology).?"
   },
   "portfolio": {
     "title": "Portfolio"
@@ -38,6 +38,6 @@
     "button": "Send message"
   },
   "footer": {
-    "text": "made with"
+    "text": "made with "
   }
 }

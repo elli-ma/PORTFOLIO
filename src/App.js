@@ -13,11 +13,21 @@ import { useTranslation } from 'react-i18next';
 function App() {
   //язык
   const { i18n } = useTranslation();
+  let startLanguage = localStorage.getItem("language") ?? 'en';
+  const [language, setLanguage] = useState(startLanguage);
 
   const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
+    if (language == 'en') {
+      i18n.changeLanguage(language);
+      localStorage.setItem("language", 'ru')
+      setLanguage('ru')
 
+    } else {
+      i18n.changeLanguage(language);
+      localStorage.setItem("language", 'en')
+      setLanguage('en')
+    }
+  }
   //фон
   let startColor = localStorage.getItem("color") ?? '#fff6e5';
   const [view, SetView] = useState(startColor);
@@ -46,7 +56,7 @@ function App() {
         <div>{t("description.part1")}</div>
         <div>{t("description.part2")}</div>
       </div> */}
-      <Nav handleView={handleView} changeLanguage={changeLanguage} view={view} />
+      <Nav handleView={handleView} changeLanguage={changeLanguage} view={view} language={language} />
       <Aboutme />
       <Skills />
       <Education />

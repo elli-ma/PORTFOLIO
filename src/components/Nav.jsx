@@ -7,10 +7,10 @@ import { useTranslation } from 'react-i18next';
 
 
 function Nav(props) {
-  const { t, i18n} = useTranslation();
+  const {t} = useTranslation();
 
   const moon = props.view == '#fff6e5' ? Moon : Sun;
-  const language = 'en'? 'ru' : 'en';
+  const language = props.language;
 
   return (
     <nav className="nav">
@@ -34,10 +34,10 @@ function Nav(props) {
         </ul>
         <ul className='nav__two'>
           <li className="nav__buttons">
-            <div>
+            {/* <div>
               <button onClick={() => props.changeLanguage('en')}>EN</button>
               <button onClick={() => props.changeLanguage('ru')}>RU</button>         
-            </div>
+            </div> */}
             <button className="nav__button" onClick={() => props.changeLanguage(language)} type="button"><img src={Word} /></button>
             <button className="nav__button word" onClick={props.handleView} type="button"> <img src={moon} /> </button>
           </li>
