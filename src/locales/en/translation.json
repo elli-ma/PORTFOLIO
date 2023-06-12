@@ -1,6 +1,6 @@
 {
   "nav": {
-    "item1": "Hello",
+    "item1": "About",
     "item2": "Skills",
     "item3": "Education",
     "item4": "Portfolio",
@@ -25,7 +25,7 @@
   "education": {
     "title": "Education",
     "name": "Chelyabinsk State Pedagogical University",
-    "text": "Computer science."
+    "text": "BCS - Computer Science"
   },
   "portfolio": {
     "title": "Portfolio"
