@@ -1,5 +1,5 @@
-import wave from '../images/wave.svg'
-import wave1 from '../images/wave1.svg'
+// import wave from '../images/wave.svg'
+// import wave1 from '../images/wave1.svg'
 import { useTranslation } from 'react-i18next';
 function Contact() {
     const { t } = useTranslation();
@@ -12,7 +12,6 @@ function Contact() {
                      <img className='wave__img'src={wave} alt="" />
                      <img className='wave__img'src={wave1} alt="" />
                 </div> */}
-
             </div>
             {/* <form className="form" action="">
                 <div className="form__one">
@@ -29,17 +28,16 @@ function Contact() {
             {/* <a className="" href="mailto: elli9225@gmail.com">elli9225@gmail.com</a> */}
             <div className="col4">
                 <ul className="col4__list">
-                    <li><a className="icon__link" href="https://github.com/elli-ma"><i className="fa-brands fa-github"></i></a></li>
-                    <li><a className="icon__link" href="https://instagram.com/viraahmetzyanova?igshid=NTc4MTIwNjQ2YQ=="><i className="fa-brands fa-instagram"></i></a></li>
-                    <li><a className="icon__link" href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a className="icon__link" href=""><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a className="icon__link" href="mailto:elli9225@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li><a className="icon__link" href="https://github.com/elli-ma" target="_blank"><i className="fa-brands fa-github"></i></a></li>
+                    <li><a className="icon__link" href="https://instagram.com/viraahmetzyanova?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+                    {/* <li><a className="icon__link" href=""><i class="fa-brands fa-linkedin" target="_blank"></i></a></li> */}
+                    <li><a className="icon__link" href="tg://resolve?domain=ellivira" target="_blank"><i class="fa-brands fa-telegram" ></i></a></li>
                     {/* <a className="icon__link" href="mailto: elli9225@gmail.com"><i className="fa-regular fa-envelope"></i></a> */}
                 </ul>
             </div>
 
 
         </section >
-    )
-}
-
+    )}
 export default Contact;
