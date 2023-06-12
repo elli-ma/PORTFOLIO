@@ -3,10 +3,10 @@
 
 $color: #522f36;
 $color1: #e8b44f;
-$color2: #cc7e30;
+$color2: #b56412;
 $color3: #fff6e5;
 // $color4: rgb(54 30 45);
-
+// #cc7e30;
 a {
     color: $color;
     &:hover {
@@ -49,11 +49,11 @@ body {
     align-items: center;
     gap: 3.5%;
 }
-.nav__buttons{
+.nav__buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 15%;
+    gap: 22%;
 }
 .nav__button {
     background-color: #11ffee00;
@@ -75,7 +75,6 @@ body {
 .one {
     padding-top: 70px;
 }
-
 
 .block_col {
     display: flex;
@@ -287,6 +286,14 @@ h1 {
     resize: none;
     display: block;
 }
+.col4__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 170%;
+    gap: 3%;
+    justify-content: end;
+}
 .footer {
     font-size: 14px;
     place-content: center;
@@ -338,6 +345,7 @@ h1 {
     .block {
         padding: 20px 5%;
     }
+
     .block__row {
         padding: 20px 5%;
     }
@@ -348,8 +356,14 @@ h1 {
     .block {
         flex-direction: column;
     }
+    .__line {
+        flex-direction: row;
+    }
     .col4 {
         flex-direction: column;
+    }
+    .col4__list {
+        gap:7%;
     }
     .nav {
         padding: 12px 5%;

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 
 function Nav(props) {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   const moon = props.view == '#fff6e5' ? Moon : Sun;
   const language = props.language;
