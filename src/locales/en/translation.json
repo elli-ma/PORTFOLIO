@@ -8,7 +8,7 @@
   },
   "aboutme": {
     "title": "I am ELLI",
-    "text": "Front end developer with interests in design, fashion and education. React dev.",
+    "text": "Frontend Developer with experience in web product development, fashion design and manufacturing, with a touch of work in backend development and devops. React dev.",
     "list": {
       "item1":"Phone:",
       "item2":"Email:",
@@ -25,7 +25,7 @@
   "education": {
     "title": "Education",
     "name": "Chelyabinsk State Pedagogical University",
-    "text": "Vocational training (Computer science, computer engineering and computer technology).?"
+    "text": "Computer science."
   },
   "portfolio": {
     "title": "Portfolio"

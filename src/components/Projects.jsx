@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 function Projects() {
     const { t } = useTranslation();
     return (
-        <section id="portfolio" className="block__row">
+        <section  className="block__row">
             <h2 className="block__title">{t("portfolio.title")}</h2>
             <div className="items" >
                 <div className="item">
@@ -23,15 +23,14 @@ function Projects() {
                         <a href="https://elli-ma.github.io/Beuty/" target="_blank"><img className="item__img" src={Beauty} alt="" /></a>
                     </div>
                     <h4 className="item__title"><a className="item__title" href="https://elli-ma.github.io/Beuty/" target="_blank">Beaty</a></h4>
-                    <p className="item__text">Пример БЭМ верстки.</p>
+                    <p className="item__text">BEM-layout.</p>
                 </div>
                 <div className="item">
                     <div className="img__box">
                         <a href="https://elli-ma.github.io/Conquest/" target="_blank"><img className="item__img" src={Conquest} alt="" /></a>
                     </div>
                     <h4 className="item__title"><a className="item__title" href="https://elli-ma.github.io/Conquest/" target="_blank">Conquest</a></h4>
-                    <p className="item__text">Пример БЭМ верстки.  </p>
-
+                    <p className="item__text">BEM-layout.  </p>
                 </div>
                 <div className="item">
                     <div className="img__box">
@@ -40,7 +39,6 @@ function Projects() {
                     <h4 className="item__title"><a className="item__title" href="https://elli-ma.github.io/comments/" target="_blank">Comment</a></h4>
                     <p className="item__text">JavaScript,Bootstrap.</p>
                 </div>
-
                 <div className="item">
                     <div className="img__box">
                         <a href="https://elli-ma.github.io/krestiki/" target="_blank"><img className="item__img" src={TicTac} alt="" /></a>

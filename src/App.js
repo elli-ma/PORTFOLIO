@@ -28,13 +28,14 @@ function App() {
       setLanguage('en')
     }
   }
+
   //фон
   let startColor = localStorage.getItem("color") ?? '#fff6e5';
   const [view, SetView] = useState(startColor);
 
   function handleView() {
     if (view == '#fff6e5') {
-      localStorage.setItem("color", 'rgb(54, 30, 45);')
+      localStorage.setItem("color", 'rgb(54, 30, 45)')
       SetView('rgb(54, 30, 45)')
     } else {
       localStorage.setItem("color", '#fff6e5')
@@ -48,14 +49,6 @@ function App() {
   return (
 
     <div className='wrapper' style={{ backgroundColor: view, color: textColor }}>
-      {/* <div className="App">
-        <button onClick={() => changeLanguage("en")}>EN</button>
-        <button onClick={() => changeLanguage("ru")}>RU</button>
-        <hr />
-        <div><h1>{t("title")}</h1></div>
-        <div>{t("description.part1")}</div>
-        <div>{t("description.part2")}</div>
-      </div> */}
       <Nav handleView={handleView} changeLanguage={changeLanguage} view={view} language={language} />
       <Aboutme />
       <Skills />

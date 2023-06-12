@@ -1,11 +1,11 @@
-import wave from '../images/wave.svg'
-import wave1 from '../images/wave1.svg'
+// import wave from '../images/wave.svg'
+// import wave1 from '../images/wave1.svg'
 import { useTranslation } from 'react-i18next';
 
 function Skills() {
     const { t } = useTranslation();
     return (
-        <section id="skills" className="block">
+        <section  className="block">
             <div className="block_col3">
                 <h2 className="block__title" >{t("skills.title")}</h2>
                 {/* <p className="block__text">Junior Frontend Saint Petersburg</p> */}
@@ -20,7 +20,7 @@ function Skills() {
                 </div>
                 <div className="col4__item">
                     <h3 className="col4__title">{t("skills.item2")}</h3>
-                    <p className="col4__text">Photoshop, Illustrator, CorelDRAW.</p>
+                    <p id ="education" className="col4__text">Photoshop, Illustrator, CorelDRAW.</p>
                 </div>
             </div>
         </section>
