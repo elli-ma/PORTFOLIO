@@ -20,7 +20,7 @@ function Skills() {
                 </div>
                 <div className="col4__item">
                     <h3 className="col4__title">Backend Development</h3>
-                    <p id="education" className="col4__text">Nodejs, Express, C#, Docker.</p>
+                    <p id="education" className="col4__text">Nodejs.</p>
                 </div>
                 <div className="col4__item">
                     <h3 className="col4__title">{t("skills.item2")}</h3>
