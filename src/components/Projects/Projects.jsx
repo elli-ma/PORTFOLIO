@@ -1,10 +1,11 @@
-import React from "react"
-import TicTac from '../images/TicTac.jpg'
-import Comment from '../images/Comment.jpg'
-import Beauty from '../images/Beauty.jpg'
-import Conquest from '../images/Conquest.jpg'
-import Sultan from '../images/Sultan.jpg'
+import './Projects.scss'
+import TicTac from '../../assets/images/TicTac.jpg'
+import Comment from '../../assets/images/Comment.jpg'
+import Beauty from '../../assets/images/Beauty.jpg'
+import Conquest from '../../assets/images/Conquest.jpg'
+import Sultan from '../../assets/images/Sultan.jpg'
 import { useTranslation } from 'react-i18next';
+
 function Projects() {
     const { t } = useTranslation();
     return (

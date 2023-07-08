@@ -1,4 +1,6 @@
-import { useTranslation } from 'react-i18next';
+import './Footer.scss'
+
+import {useTranslation} from 'react-i18next';
 function Footer() {
     const { t } = useTranslation();
     return (
