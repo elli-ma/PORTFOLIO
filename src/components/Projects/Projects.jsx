@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 function Projects() {
     const { t } = useTranslation();
     return (
-        <section  className="block__row">
+        <section  className="block block__row">
             <h2 className="block__title">{t("portfolio.title")}</h2>
             <div className="items" >
                 <div className="item">
