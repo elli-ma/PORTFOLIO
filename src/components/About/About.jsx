@@ -20,8 +20,7 @@ function About() {
                             <li className="list__title">{t("aboutme.list.item3")}</li>
                         </ul>
                         <ul  >
-                            <li className="list__text">+7(982)-108-58-71</li>
-                            <li className="list__text">elli9225@gmail.com</li>
+                            <li className="list__text">elviraahmet9225@gmail.com</li>
                             <li className="list__text">
                                 <a className="icon__link" href="mailto: elli9225@gmail.com">
                                     <i className="fa-regular fa-envelope"></i>
