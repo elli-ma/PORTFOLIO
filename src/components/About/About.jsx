@@ -15,14 +15,13 @@ function About() {
                     </div>
                     <div className="lists">
                         <ul>
-                            <li className="list__title">{t("aboutme.list.item1")}</li>
                             <li className="list__title">{t("aboutme.list.item2")}</li>
                             <li className="list__title">{t("aboutme.list.item3")}</li>
                         </ul>
-                        <ul  >
+                        <ul>
                             <li className="list__text">elviraahmet9225@gmail.com</li>
                             <li className="list__text">
-                                <a className="icon__link" href="mailto: elli9225@gmail.com">
+                                <a className="icon__link" href="mailto: elviraahmet9225@gmail.com">
                                     <i className="fa-regular fa-envelope"></i>
                                 </a>
                                 <a className="icon__link" href="https://github.com/elli-ma" target="_blank">

@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+
 function Education() {
     const { t } = useTranslation();
     return (
