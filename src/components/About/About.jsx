@@ -38,7 +38,7 @@ function About() {
                     </div>
                     <div id="skills" class="buttons">
                         <a class="block__button" href="#contact">{t("aboutme.button1")}</a>
-                        <a class="block__button color2" href="https://drive.google.com/file/d/14CmgPaCEVIK7V63VZyksIYh5oXl48N7W/view?usp=sharing" target="_blank">{t("aboutme.button2")}</a>
+                        <a class="block__button color2" href="https://drive.google.com/file/d/1PWRNVGi4Hn8SCT0N-nV0YOzU3MYC3bQ2/view?usp=sharing" target="_blank">{t("aboutme.button2")}</a>
                     </div>
                 </div>
                 <div className="block__img">
