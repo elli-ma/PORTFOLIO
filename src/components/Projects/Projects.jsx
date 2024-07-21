@@ -11,6 +11,7 @@ import Sultan from "../../assets/images/Sultan.jpg";
 import Dicolor from "../../assets/images/Dicolor.jpg";
 import AM from "../../assets/images/AM Pro.jpg";
 import Katafot from "../../assets/images/Katafot.jpg";
+import Cube from "../../assets/images/Cube.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -20,6 +21,24 @@ function Projects() {
     <section className="block block__row">
       <h2 className="block__title">{t("portfolio.title")}</h2>
       <div className="items">
+        <div className="item">
+          <div className="img__box">
+            <a href="https://videocubes.ru/" target="_blank">
+              <img className="item__img" src={Cube} alt="" />
+            </a>
+          </div>
+          <h4 className="item__title">
+            <a
+              className="item__title"
+              href="https://videocubes.ru//"
+              target="_blank"
+            >
+              Videocubes
+            </a>
+          </h4>
+          <p className="item__text">Tailwind.</p>
+        </div>
+
         <div className="item">
           <div className="img__box">
             <a href="https://dicolorled.ru/" target="_blank">
